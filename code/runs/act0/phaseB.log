@@ -1,0 +1,90 @@
+preregistration sha256: c66463066a4f3dc50e21cf82f3debc2c5d5b1ae4d8ac6ec1502e9617ba8d7321
+GATE primary: PASS  rel_delta p=0.008+  rel_theta p=0.036+  rel_alpha p=0.050-  rel_beta p=0.026-  dar p=0.018+  dtabr p=0.002+  bsi_1_30 p=0.003+  bsi_delta p=0.005+  bsi_theta p=0.113+  bsi_alpha p=0.012+  bsi_beta p=0.003+
+INFO:root:Loading pretrained model from /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+VisionTransformer(
+  (patch_embed): PatchEmbed3D(
+    (proj): Conv3d(1, 384, kernel_size=(4, 4, 30), stride=(4, 4, 30))
+  )
+  (blocks): ModuleList(
+    (0-11): 12 x Block(
+      (norm1): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (attn): Attention(
+        (qkv): Linear(in_features=384, out_features=1152, bias=True)
+        (attn_drop): Dropout(p=0.0, inplace=False)
+        (proj): Linear(in_features=384, out_features=384, bias=True)
+        (proj_drop): Dropout(p=0.0, inplace=False)
+      )
+      (norm2): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (mlp): MLP(
+        (fc1): Linear(in_features=384, out_features=1536, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=1536, out_features=384, bias=True)
+        (drop): Dropout(p=0.0, inplace=False)
+      )
+    )
+  )
+  (norm): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+)
+INFO:root:loaded pretrained model with msg: <All keys matched successfully>
+INFO:root:loaded pretrained encoder from epoch: 353
+ path: /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+/home/mashfiq/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/contextlib.py:87: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  primary     BSI             AUROC 0.907  AUC-PR 0.960  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  perm p 0.005
+  primary     VJEPA           AUROC 0.981  AUC-PR 0.989  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  perm p 0.006
+  primary     VJEPA+BSI       AUROC 0.981  AUC-PR 0.989  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  perm p 0.007
+  primary     rand-VJEPA      AUROC 0.833  AUC-PR 0.901  Acc 0.733  BAcc 0.722  F1 0.778  Sens 0.778  Spec 0.667  [TP 7 FP 2 TN 4 FN 2]  perm p 0.039
+  primary     rand-VJEPA+BSI  AUROC 0.870  AUC-PR 0.925  Acc 0.733  BAcc 0.722  F1 0.778  Sens 0.778  Spec 0.667  [TP 7 FP 2 TN 4 FN 2]  perm p 0.021
+  primary     FEI+C           AUROC 0.833  AUC-PR 0.919  Acc 0.733  BAcc 0.750  F1 0.750  Sens 0.667  Spec 0.833  [TP 6 FP 1 TN 5 FN 3]  perm p 0.034
+  primary     FEI+C+BSI       AUROC 0.926  AUC-PR 0.960  Acc 0.800  BAcc 0.806  F1 0.824  Sens 0.778  Spec 0.833  [TP 7 FP 1 TN 5 FN 2]  perm p 0.009
+  primary     rand-FEI+C      AUROC 0.889  AUC-PR 0.940  Acc 0.800  BAcc 0.806  F1 0.824  Sens 0.778  Spec 0.833  [TP 7 FP 1 TN 5 FN 2]  perm p 0.014
+  primary     rand-FEI+C+BSI  AUROC 0.907  AUC-PR 0.953  Acc 0.800  BAcc 0.806  F1 0.824  Sens 0.778  Spec 0.833  [TP 7 FP 1 TN 5 FN 2]  perm p 0.011
+GATE sensitivity: PASS  rel_delta p=0.068+  rel_theta p=0.016+  rel_alpha p=0.173-  rel_beta p=0.068-  dar p=0.122+  dtabr p=0.027+  bsi_1_30 p=0.000+  bsi_delta p=0.001+  bsi_theta p=0.021+  bsi_alpha p=0.002+  bsi_beta p=0.001+
+INFO:root:Loading pretrained model from /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+VisionTransformer(
+  (patch_embed): PatchEmbed3D(
+    (proj): Conv3d(1, 384, kernel_size=(4, 4, 30), stride=(4, 4, 30))
+  )
+  (blocks): ModuleList(
+    (0-11): 12 x Block(
+      (norm1): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (attn): Attention(
+        (qkv): Linear(in_features=384, out_features=1152, bias=True)
+        (attn_drop): Dropout(p=0.0, inplace=False)
+        (proj): Linear(in_features=384, out_features=384, bias=True)
+        (proj_drop): Dropout(p=0.0, inplace=False)
+      )
+      (norm2): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (mlp): MLP(
+        (fc1): Linear(in_features=384, out_features=1536, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=1536, out_features=384, bias=True)
+        (drop): Dropout(p=0.0, inplace=False)
+      )
+    )
+  )
+  (norm): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+)
+INFO:root:loaded pretrained model with msg: <All keys matched successfully>
+INFO:root:loaded pretrained encoder from epoch: 353
+ path: /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+/home/mashfiq/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/contextlib.py:87: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+INFO:root:Skipping pretrained load. Using randomly initialized encoder.
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  sensitivity BSI             AUROC 0.938  AUC-PR 0.967  Acc 0.944  BAcc 0.950  F1 0.947  Sens 0.900  Spec 1.000  [TP 9 FP 0 TN 8 FN 1]  perm p 0.002
+  sensitivity VJEPA           AUROC 0.863  AUC-PR 0.908  Acc 0.778  BAcc 0.787  F1 0.778  Sens 0.700  Spec 0.875  [TP 7 FP 1 TN 7 FN 3]  perm p 0.013
+  sensitivity VJEPA+BSI       AUROC 0.887  AUC-PR 0.926  Acc 0.778  BAcc 0.787  F1 0.778  Sens 0.700  Spec 0.875  [TP 7 FP 1 TN 7 FN 3]  perm p 0.010
+  sensitivity rand-VJEPA      AUROC 0.825  AUC-PR 0.884  Acc 0.722  BAcc 0.713  F1 0.762  Sens 0.800  Spec 0.625  [TP 8 FP 3 TN 5 FN 2]  perm p 0.026
+  sensitivity rand-VJEPA+BSI  AUROC 0.862  AUC-PR 0.914  Acc 0.722  BAcc 0.713  F1 0.762  Sens 0.800  Spec 0.625  [TP 8 FP 3 TN 5 FN 2]  perm p 0.014
+  sensitivity FEI+C           AUROC 0.788  AUC-PR 0.897  Acc 0.833  BAcc 0.838  F1 0.842  Sens 0.800  Spec 0.875  [TP 8 FP 1 TN 7 FN 2]  perm p 0.037
+  sensitivity FEI+C+BSI       AUROC 0.800  AUC-PR 0.901  Acc 0.778  BAcc 0.787  F1 0.778  Sens 0.700  Spec 0.875  [TP 7 FP 1 TN 7 FN 3]  perm p 0.032
+  sensitivity rand-FEI+C      AUROC 0.900  AUC-PR 0.924  Acc 0.889  BAcc 0.887  F1 0.900  Sens 0.900  Spec 0.875  [TP 9 FP 1 TN 7 FN 1]  perm p 0.008
+  sensitivity rand-FEI+C+BSI  AUROC 0.913  AUC-PR 0.938  Acc 0.889  BAcc 0.887  F1 0.900  Sens 0.900  Spec 0.875  [TP 9 FP 1 TN 7 FN 1]  perm p 0.006
+PHASE B DONE

@@ -1,0 +1,10 @@
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed 500/2993
+  embed 1000/2993
+  embed 1500/2993
+  embed 2000/2993
+  embed 2500/2993
+rep0: FEI 0.872  rand 0.813  delta +0.059 CI [0.02  0.096] p 0.001  members [0.86  0.842 0.83  0.842 0.856]
+rep1: FEI 0.859  rand 0.813  delta +0.046 CI [0.011 0.083] p 0.007  members [0.85  0.81  0.826 0.818 0.847]
+rep2: FEI 0.866  rand 0.813  delta +0.052 CI [0.016 0.09 ] p 0.004  members [0.87  0.846 0.85  0.831 0.825]
+14/15 15/15

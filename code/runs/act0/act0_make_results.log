@@ -1,0 +1,9 @@
+/home/mashfiq/.eeg_vjepa_venv/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/mashfiq/.eeg_vjepa_venv/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/mashfiq/.eeg_vjepa_venv/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/mashfiq/.eeg_vjepa_venv/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+215 numbers, 17 tables, figs: ['collapse.png', 'ft.png', 'linear_probe.png', 'nmt_a0.png', 'p14_bars.png', 'p14_curves.png', 'stroke_clean_cv.png', 'stroke_clean_gates.png', 'stroke_gate.png', 'stroke_perm.png', 'stroke_subjects.png', 'tuab_feic.png', 'tuab_maps.png']

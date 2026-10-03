@@ -1,0 +1,11 @@
+nmt_folds_seed0.csv: 2417 rows
+tuab_subsets.csv: 2730 rows
+stroke_cohorts.csv: 33 rows
+checkpoints_sha256.csv: 43 rows
+results_sha256.csv: 33 rows
+python 3.9.25
+torch 2.8.0+cu128 (CUDA 12.8, cuDNN 91002)
+GPU NVIDIA GeForce RTX 5060 Ti, 595.91.07
+OS Linux-7.0.0-38-generic-x86_64-with-glibc2.39
+upstream eeg-vjepa commit c739fad5ad57ec4439a094343901a245edf611ec
+pretrained (HF amir-hlp/EEG-VJEPA) commit ec98405f5f3423fd59d3296157ee1570efd8d947

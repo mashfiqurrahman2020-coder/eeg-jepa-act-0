@@ -1,0 +1,335 @@
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1_f0 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep1_f0 FEI]   epoch 1/60  loss=0.0108  1s
+[rep1_f0 FEI]   epoch 10/60  loss=0.0006  1s
+[rep1_f0 FEI]   epoch 20/60  loss=0.0004  0s
+[rep1_f0 FEI]   epoch 30/60  loss=0.0003  1s
+[rep1_f0 FEI]   epoch 40/60  loss=0.0002  0s
+[rep1_f0 FEI]   epoch 50/60  loss=0.0002  0s
+[rep1_f0 FEI]   epoch 60/60  loss=0.0001  0s
+[rep1_f0 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1933 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep1_f0 GTJ]   ep 1/60 loss=0.0040 1s
+[rep1_f0 GTJ]   ep 10/60 loss=0.0001 1s
+[rep1_f0 GTJ]   ep 20/60 loss=0.0001 1s
+[rep1_f0 GTJ]   ep 30/60 loss=0.0001 1s
+[rep1_f0 GTJ]   ep 40/60 loss=0.0001 1s
+[rep1_f0 GTJ]   ep 50/60 loss=0.0001 1s
+[rep1_f0 GTJ]   ep 60/60 loss=0.0001 1s
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 59C — resuming.
+[rep1_f0] AUROC FEI@4000 0.879  GTJ 0.855  FEI+GTJ 0.911
+[rep1_f1 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep1_f1 FEI]   epoch 1/60  loss=0.0115  0s
+[rep1_f1 FEI]   epoch 10/60  loss=0.0006  0s
+[rep1_f1 FEI]   epoch 20/60  loss=0.0003  0s
+[rep1_f1 FEI]   epoch 30/60  loss=0.0002  0s
+[rep1_f1 FEI]   epoch 40/60  loss=0.0002  0s
+[rep1_f1 FEI]   epoch 50/60  loss=0.0002  0s
+[rep1_f1 FEI]   epoch 60/60  loss=0.0001  0s
+[rep1_f1 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1933 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep1_f1 GTJ]   ep 1/60 loss=0.0042 1s
+[rep1_f1 GTJ]   ep 10/60 loss=0.0001 0s
+[rep1_f1 GTJ]   ep 20/60 loss=0.0000 0s
+[rep1_f1 GTJ]   ep 30/60 loss=0.0000 0s
+[rep1_f1 GTJ]   ep 40/60 loss=0.0000 1s
+[rep1_f1 GTJ]   ep 50/60 loss=0.0000 6s
+[rep1_f1 GTJ]   ep 60/60 loss=0.0001 1s
+[hw_guard] CPU 84C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[rep1_f1] AUROC FEI@4000 0.798  GTJ 0.803  FEI+GTJ 0.835
+[rep1_f2 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep1_f2 FEI]   epoch 1/60  loss=0.0099  0s
+[rep1_f2 FEI]   epoch 10/60  loss=0.0006  0s
+[rep1_f2 FEI]   epoch 20/60  loss=0.0004  0s
+[rep1_f2 FEI]   epoch 30/60  loss=0.0003  0s
+[rep1_f2 FEI]   epoch 40/60  loss=0.0002  0s
+[rep1_f2 FEI]   epoch 50/60  loss=0.0002  0s
+[rep1_f2 FEI]   epoch 60/60  loss=0.0001  0s
+[rep1_f2 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep1_f2 GTJ]   ep 1/60 loss=0.0048 6s
+[rep1_f2 GTJ]   ep 10/60 loss=0.0001 0s
+[rep1_f2 GTJ]   ep 20/60 loss=0.0000 0s
+[rep1_f2 GTJ]   ep 30/60 loss=0.0000 0s
+[rep1_f2 GTJ]   ep 40/60 loss=0.0000 6s
+[rep1_f2 GTJ]   ep 50/60 loss=0.0000 1s
+[rep1_f2 GTJ]   ep 60/60 loss=0.0001 0s
+[hw_guard] CPU 84C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 62C — resuming.
+[rep1_f2] AUROC FEI@4000 0.836  GTJ 0.846  FEI+GTJ 0.888
+[rep1_f3 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep1_f3 FEI]   epoch 1/60  loss=0.0104  0s
+[rep1_f3 FEI]   epoch 10/60  loss=0.0006  0s
+[rep1_f3 FEI]   epoch 20/60  loss=0.0003  0s
+[rep1_f3 FEI]   epoch 30/60  loss=0.0002  0s
+[rep1_f3 FEI]   epoch 40/60  loss=0.0002  0s
+[rep1_f3 FEI]   epoch 50/60  loss=0.0001  0s
+[rep1_f3 FEI]   epoch 60/60  loss=0.0001  0s
+[rep1_f3 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep1_f3 GTJ]   ep 1/60 loss=0.0051 1s
+[rep1_f3 GTJ]   ep 10/60 loss=0.0001 1s
+[rep1_f3 GTJ]   ep 20/60 loss=0.0000 0s
+[rep1_f3 GTJ]   ep 30/60 loss=0.0000 1s
+[rep1_f3 GTJ]   ep 40/60 loss=0.0000 0s
+[rep1_f3 GTJ]   ep 50/60 loss=0.0001 0s
+[rep1_f3 GTJ]   ep 60/60 loss=0.0001 0s
+[hw_guard] CPU 87C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 60C — resuming.
+[rep1_f3] AUROC FEI@4000 0.791  GTJ 0.820  FEI+GTJ 0.840
+[rep1_f4 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep1_f4 FEI]   epoch 1/60  loss=0.0098  0s
+[rep1_f4 FEI]   epoch 10/60  loss=0.0006  0s
+[rep1_f4 FEI]   epoch 20/60  loss=0.0004  0s
+[rep1_f4 FEI]   epoch 30/60  loss=0.0003  0s
+[rep1_f4 FEI]   epoch 40/60  loss=0.0002  0s
+[rep1_f4 FEI]   epoch 50/60  loss=0.0001  0s
+[rep1_f4 FEI]   epoch 60/60  loss=0.0001  0s
+[rep1_f4 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep1_f4 GTJ]   ep 1/60 loss=0.0049 1s
+[rep1_f4 GTJ]   ep 10/60 loss=0.0001 0s
+[rep1_f4 GTJ]   ep 20/60 loss=0.0000 1s
+[rep1_f4 GTJ]   ep 30/60 loss=0.0000 0s
+[rep1_f4 GTJ]   ep 40/60 loss=0.0000 0s
+[rep1_f4 GTJ]   ep 50/60 loss=0.0000 0s
+[rep1_f4 GTJ]   ep 60/60 loss=0.0000 0s
+[hw_guard] CPU 84C >= 80C — pausing to cool...
+[hw_guard] cooled to 62C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 62C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[rep1_f4] AUROC FEI@4000 0.841  GTJ 0.824  FEI+GTJ 0.850
+[rep2_f0 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep2_f0 FEI]   epoch 1/60  loss=0.0103  0s
+[rep2_f0 FEI]   epoch 10/60  loss=0.0006  0s
+[rep2_f0 FEI]   epoch 20/60  loss=0.0004  0s
+[rep2_f0 FEI]   epoch 30/60  loss=0.0003  0s
+[rep2_f0 FEI]   epoch 40/60  loss=0.0002  0s
+[rep2_f0 FEI]   epoch 50/60  loss=0.0002  0s
+[rep2_f0 FEI]   epoch 60/60  loss=0.0001  0s
+[rep2_f0 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1933 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep2_f0 GTJ]   ep 1/60 loss=0.0043 1s
+[rep2_f0 GTJ]   ep 10/60 loss=0.0001 1s
+[rep2_f0 GTJ]   ep 20/60 loss=0.0001 1s
+[rep2_f0 GTJ]   ep 30/60 loss=0.0001 6s
+[rep2_f0 GTJ]   ep 40/60 loss=0.0001 1s
+[rep2_f0 GTJ]   ep 50/60 loss=0.0001 1s
+[rep2_f0 GTJ]   ep 60/60 loss=0.0001 0s
+[hw_guard] CPU 87C >= 80C — pausing to cool...
+[hw_guard] cooled to 63C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 61C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 60C — resuming.
+[rep2_f0] AUROC FEI@4000 0.845  GTJ 0.839  FEI+GTJ 0.874
+[rep2_f1 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep2_f1 FEI]   epoch 1/60  loss=0.0107  0s
+[rep2_f1 FEI]   epoch 10/60  loss=0.0006  0s
+[rep2_f1 FEI]   epoch 20/60  loss=0.0003  0s
+[rep2_f1 FEI]   epoch 30/60  loss=0.0002  0s
+[rep2_f1 FEI]   epoch 40/60  loss=0.0002  0s
+[rep2_f1 FEI]   epoch 50/60  loss=0.0001  0s
+[rep2_f1 FEI]   epoch 60/60  loss=0.0001  0s
+[rep2_f1 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1933 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep2_f1 GTJ]   ep 1/60 loss=0.0035 1s
+[rep2_f1 GTJ]   ep 10/60 loss=0.0001 1s
+[rep2_f1 GTJ]   ep 20/60 loss=0.0000 1s
+[rep2_f1 GTJ]   ep 30/60 loss=0.0000 1s
+[rep2_f1 GTJ]   ep 40/60 loss=0.0000 6s
+[rep2_f1 GTJ]   ep 50/60 loss=0.0000 0s
+[rep2_f1 GTJ]   ep 60/60 loss=0.0001 0s
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 60C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 62C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 64C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 69C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 68C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[rep2_f1] AUROC FEI@4000 0.810  GTJ 0.812  FEI+GTJ 0.837
+[rep2_f2 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep2_f2 FEI]   epoch 1/60  loss=0.0097  1s
+[rep2_f2 FEI]   epoch 10/60  loss=0.0006  0s
+[rep2_f2 FEI]   epoch 20/60  loss=0.0004  0s
+[rep2_f2 FEI]   epoch 30/60  loss=0.0003  0s
+[rep2_f2 FEI]   epoch 40/60  loss=0.0002  0s
+[rep2_f2 FEI]   epoch 50/60  loss=0.0002  0s
+[rep2_f2 FEI]   epoch 60/60  loss=0.0001  0s
+[rep2_f2 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep2_f2 GTJ]   ep 1/60 loss=0.0046 1s
+[rep2_f2 GTJ]   ep 10/60 loss=0.0001 1s
+[rep2_f2 GTJ]   ep 20/60 loss=0.0000 6s
+[rep2_f2 GTJ]   ep 30/60 loss=0.0000 1s
+[rep2_f2 GTJ]   ep 40/60 loss=0.0000 6s
+[rep2_f2 GTJ]   ep 50/60 loss=0.0000 1s
+[rep2_f2 GTJ]   ep 60/60 loss=0.0000 1s
+[hw_guard] CPU 85C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 68C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 68C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 69C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 68C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 70C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[rep2_f2] AUROC FEI@4000 0.814  GTJ 0.820  FEI+GTJ 0.858
+[rep2_f3 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep2_f3 FEI]   epoch 1/60  loss=0.0099  1s
+[rep2_f3 FEI]   epoch 10/60  loss=0.0005  0s
+[rep2_f3 FEI]   epoch 20/60  loss=0.0003  0s
+[rep2_f3 FEI]   epoch 30/60  loss=0.0002  0s
+[rep2_f3 FEI]   epoch 40/60  loss=0.0002  0s
+[rep2_f3 FEI]   epoch 50/60  loss=0.0001  0s
+[rep2_f3 FEI]   epoch 60/60  loss=0.0001  0s
+[rep2_f3 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep2_f3 GTJ]   ep 1/60 loss=0.0044 1s
+[rep2_f3 GTJ]   ep 10/60 loss=0.0001 1s
+[rep2_f3 GTJ]   ep 20/60 loss=0.0000 1s
+[rep2_f3 GTJ]   ep 30/60 loss=0.0000 1s
+[rep2_f3 GTJ]   ep 40/60 loss=0.0000 1s
+[rep2_f3 GTJ]   ep 50/60 loss=0.0000 1s
+[rep2_f3 GTJ]   ep 60/60 loss=0.0001 1s
+[hw_guard] CPU 84C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 70C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 69C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 70C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 64C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 70C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 69C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[rep2_f3] AUROC FEI@4000 0.790  GTJ 0.841  FEI+GTJ 0.850
+[rep2_f4 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep2_f4 FEI]   epoch 1/60  loss=0.0115  1s
+[rep2_f4 FEI]   epoch 10/60  loss=0.0006  0s
+[rep2_f4 FEI]   epoch 20/60  loss=0.0004  0s
+[rep2_f4 FEI]   epoch 30/60  loss=0.0003  0s
+[rep2_f4 FEI]   epoch 40/60  loss=0.0002  0s
+[rep2_f4 FEI]   epoch 50/60  loss=0.0002  5s
+[rep2_f4 FEI]   epoch 60/60  loss=0.0002  0s
+[rep2_f4 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 1934 recs: 1.88M params steps/ep=60 T=39 ctx=23
+[rep2_f4 GTJ]   ep 1/60 loss=0.0038 6s
+[rep2_f4 GTJ]   ep 10/60 loss=0.0001 1s
+[rep2_f4 GTJ]   ep 20/60 loss=0.0001 1s
+[rep2_f4 GTJ]   ep 30/60 loss=0.0001 1s
+[rep2_f4 GTJ]   ep 40/60 loss=0.0001 1s
+[rep2_f4 GTJ]   ep 50/60 loss=0.0001 1s
+[rep2_f4 GTJ]   ep 60/60 loss=0.0001 1s
+[hw_guard] CPU 86C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 70C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 67C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 63C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 64C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[hw_guard] CPU 81C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 64C — resuming.
+[hw_guard] CPU 83C >= 80C — pausing to cool...
+[hw_guard] cooled to 65C — resuming.
+[hw_guard] CPU 80C >= 80C — pausing to cool...
+[hw_guard] cooled to 66C — resuming.
+[rep2_f4] AUROC FEI@4000 0.798  GTJ 0.824  FEI+GTJ 0.840
+rep1: FEI@4000 0.829  C 0.830  FEI+C 0.865
+rep2: FEI@4000 0.811  C 0.827  FEI+C 0.852

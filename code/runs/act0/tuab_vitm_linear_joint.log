@@ -1,0 +1,13 @@
+released_s0  AUROC 0.813  AUC-PR 0.824  Acc 0.743  BAcc 0.740  F1 0.715  Sens 0.706  Spec 0.773  [TP 89 FP 34 TN 116 FN 37]
+released_s1  AUROC 0.811  AUC-PR 0.816  Acc 0.743  BAcc 0.739  F1 0.710  Sens 0.690  Spec 0.787  [TP 87 FP 32 TN 118 FN 39]
+released_s2  AUROC 0.800  AUC-PR 0.810  Acc 0.728  BAcc 0.730  F1 0.717  Sens 0.754  Spec 0.707  [TP 95 FP 44 TN 106 FN 31]
+released_s3  AUROC 0.781  AUC-PR 0.800  Acc 0.717  BAcc 0.713  F1 0.683  Sens 0.667  Spec 0.760  [TP 84 FP 36 TN 114 FN 42]
+released_s4  AUROC 0.818  AUC-PR 0.838  Acc 0.732  BAcc 0.734  F1 0.720  Sens 0.754  Spec 0.713  [TP 95 FP 43 TN 107 FN 31]
+rand_s0      AUROC 0.813  AUC-PR 0.813  Acc 0.736  BAcc 0.732  F1 0.704  Sens 0.690  Spec 0.773  [TP 87 FP 34 TN 116 FN 39]
+rand_s1      AUROC 0.756  AUC-PR 0.760  Acc 0.681  BAcc 0.676  F1 0.636  Sens 0.611  Spec 0.740  [TP 77 FP 39 TN 111 FN 49]
+rand_s2      AUROC 0.784  AUC-PR 0.775  Acc 0.717  BAcc 0.718  F1 0.700  Sens 0.722  Spec 0.713  [TP 91 FP 43 TN 107 FN 35]
+released_full AUROC 0.838  AUC-PR 0.846  Acc 0.764  BAcc 0.762  F1 0.739  Sens 0.730  Spec 0.793  [TP 92 FP 31 TN 119 FN 34]
+released subsets AUROC 0.805±0.013  BAcc 0.731
+rand subsets AUROC 0.784±0.023  BAcc 0.708
+paired FEI+C - ViT-M(linear): {'FEI+C - ViT-M (s0)': {'delta': 0.011798941798941809}, 'FEI+C - ViT-M (s1)': {'delta': 0.02650793650793659}, 'FEI+C - ViT-M (s2)': {'delta': 0.02629629629629615}, 'FEI+C - ViT-M (s3)': {'delta': 0.0259788359788361}, 'FEI+C - ViT-M (s4)': {'delta': -0.010211640211640338}, 'FEI+C - ViT-M (full_train)': {'delta': 0.024232804232804273, 'ci': [-0.02211983863312786, 0.07379320144192963], 'p_le0': 0.1475}, 'subsets_mean_delta': [0.016074074074074064, 0.014287611083168325]}
+TUAB ViT-M LINEAR DONE

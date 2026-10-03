@@ -1,0 +1,12 @@
+FEI    rep0: AUROC 0.859  rand 0.813  vs rand +0.046 (p 0.009)  vs ViT-M +0.021 (p 0.195)
+FEI    rep1: AUROC 0.840  rand 0.813  vs rand +0.027 (p 0.113)  vs ViT-M +0.002 (p 0.471)
+FEI    rep2: AUROC 0.854  rand 0.813  vs rand +0.041 (p 0.020)  vs ViT-M +0.016 (p 0.253)
+FEI    pooled over 3 runs: vs rand {'delta': 0.03827160493827175, 'ci': [-0.00034395650858081394, 0.10372236709184322], 'p_le0': 0.026, 'n_rand_seeds': 3}  vs ViT-M {'delta': 0.013033509700176471, 'ci': [-0.035879846963934536, 0.06339796656076899], 'p_le0': 0.2915}
+C      rep0: AUROC 0.858  rand 0.863  vs rand -0.005 (p 0.658)  vs ViT-M +0.020 (p 0.228)
+C      rep1: AUROC 0.846  rand 0.863  vs rand -0.017 (p 0.879)  vs ViT-M +0.008 (p 0.382)
+C      rep2: AUROC 0.840  rand 0.863  vs rand -0.023 (p 0.944)  vs ViT-M +0.001 (p 0.486)
+C      pooled over 3 runs: vs rand {'delta': -0.015149911816578543, 'ci': [-0.0404961200816857, 0.030767840481457524], 'p_le0': 0.671, 'n_rand_seeds': 3}  vs ViT-M {'delta': 0.009770723104056467, 'ci': [-0.0406705223460541, 0.06128864740936015], 'p_le0': 0.3505}
+FEI+C  rep0: AUROC 0.863  rand 0.861  vs rand +0.001 (p 0.468)  vs ViT-M +0.024 (p 0.151)
+FEI+C  rep1: AUROC 0.851  rand 0.861  vs rand -0.010 (p 0.734)  vs ViT-M +0.013 (p 0.318)
+FEI+C  rep2: AUROC 0.855  rand 0.861  vs rand -0.006 (p 0.665)  vs ViT-M +0.017 (p 0.242)
+FEI+C  pooled over 3 runs: vs rand {'delta': -0.005061728395061582, 'ci': [-0.03256671075376828, 0.04275368175287347], 'p_le0': 0.4315, 'n_rand_seeds': 3}  vs ViT-M {'delta': 0.01790123456790138, 'ci': [-0.028456174156378487, 0.06404320729097256], 'p_le0': 0.22}

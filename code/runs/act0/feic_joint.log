@@ -1,0 +1,95 @@
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f0 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[f0 FEI]   epoch 1/60  loss=0.0065  8s
+[f0 FEI]   epoch 10/60  loss=0.0003  2s
+[f0 FEI]   epoch 20/60  loss=0.0002  12s
+[f0 FEI]   epoch 30/60  loss=0.0002  12s
+[f0 FEI]   epoch 40/60  loss=0.0002  7s
+[f0 FEI]   epoch 50/60  loss=0.0002  7s
+[f0 FEI]   epoch 60/60  loss=0.0002  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f0 C] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[f0 C]   ep 1/60 loss=0.0016 10s
+[f0 C]   ep 10/60 loss=0.0000 24s
+[f0 C]   ep 20/60 loss=0.0000 19s
+[f0 C]   ep 30/60 loss=0.0001 10s
+[f0 C]   ep 40/60 loss=0.0001 5s
+[f0 C]   ep 50/60 loss=0.0002 5s
+[f0 C]   ep 60/60 loss=0.0002 9s
+[f0] joint FEI+C AUROC 0.886  AUC-PR 0.660  Acc 0.822  BAcc 0.816  F1 0.609  Sens 0.807  Spec 0.825  [TP 67 FP 70 TN 331 FN 16]  (NMT-only 0.898)
+[f1 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[f1 FEI]   epoch 1/60  loss=0.0058  2s
+[f1 FEI]   epoch 10/60  loss=0.0003  7s
+[f1 FEI]   epoch 20/60  loss=0.0002  12s
+[f1 FEI]   epoch 30/60  loss=0.0001  2s
+[f1 FEI]   epoch 40/60  loss=0.0002  2s
+[f1 FEI]   epoch 50/60  loss=0.0001  7s
+[f1 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f1 C] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[f1 C]   ep 1/60 loss=0.0014 14s
+[f1 C]   ep 10/60 loss=0.0000 9s
+[f1 C]   ep 20/60 loss=0.0001 14s
+[f1 C]   ep 30/60 loss=0.0001 4s
+[f1 C]   ep 40/60 loss=0.0002 4s
+[f1 C]   ep 50/60 loss=0.0002 9s
+[f1 C]   ep 60/60 loss=0.0002 9s
+[f1] joint FEI+C AUROC 0.860  AUC-PR 0.576  Acc 0.808  BAcc 0.746  F1 0.537  Sens 0.651  Spec 0.840  [TP 54 FP 64 TN 337 FN 29]  (NMT-only 0.849)
+[f2 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[f2 FEI]   epoch 1/60  loss=0.0060  7s
+[f2 FEI]   epoch 10/60  loss=0.0003  2s
+[f2 FEI]   epoch 20/60  loss=0.0002  7s
+[f2 FEI]   epoch 30/60  loss=0.0002  12s
+[f2 FEI]   epoch 40/60  loss=0.0002  7s
+[f2 FEI]   epoch 50/60  loss=0.0002  7s
+[f2 FEI]   epoch 60/60  loss=0.0002  7s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f2 C] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[f2 C]   ep 1/60 loss=0.0019 4s
+[f2 C]   ep 10/60 loss=0.0000 19s
+[f2 C]   ep 20/60 loss=0.0001 4s
+[f2 C]   ep 30/60 loss=0.0001 24s
+[f2 C]   ep 40/60 loss=0.0002 24s
+[f2 C]   ep 50/60 loss=0.0002 14s
+[f2 C]   ep 60/60 loss=0.0003 14s
+[f2] joint FEI+C AUROC 0.872  AUC-PR 0.621  Acc 0.814  BAcc 0.782  F1 0.575  Sens 0.735  Spec 0.830  [TP 61 FP 68 TN 332 FN 22]  (NMT-only 0.888)
+[f3 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[f3 FEI]   epoch 1/60  loss=0.0057  7s
+[f3 FEI]   epoch 10/60  loss=0.0003  12s
+[f3 FEI]   epoch 20/60  loss=0.0002  7s
+[f3 FEI]   epoch 30/60  loss=0.0002  7s
+[f3 FEI]   epoch 40/60  loss=0.0002  2s
+[f3 FEI]   epoch 50/60  loss=0.0002  2s
+[f3 FEI]   epoch 60/60  loss=0.0002  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f3 C] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[f3 C]   ep 1/60 loss=0.0015 4s
+[f3 C]   ep 10/60 loss=0.0000 4s
+[f3 C]   ep 20/60 loss=0.0000 9s
+[f3 C]   ep 30/60 loss=0.0001 4s
+[f3 C]   ep 40/60 loss=0.0001 4s
+[f3 C]   ep 50/60 loss=0.0001 4s
+[f3 C]   ep 60/60 loss=0.0002 9s
+[f3] joint FEI+C AUROC 0.814  AUC-PR 0.530  Acc 0.791  BAcc 0.745  F1 0.526  Sens 0.675  Spec 0.815  [TP 56 FP 74 TN 326 FN 27]  (NMT-only 0.837)
+[f4 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[f4 FEI]   epoch 1/60  loss=0.0059  2s
+[f4 FEI]   epoch 10/60  loss=0.0003  2s
+[f4 FEI]   epoch 20/60  loss=0.0002  2s
+[f4 FEI]   epoch 30/60  loss=0.0002  7s
+[f4 FEI]   epoch 40/60  loss=0.0002  2s
+[f4 FEI]   epoch 50/60  loss=0.0002  7s
+[f4 FEI]   epoch 60/60  loss=0.0002  7s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[f4 C] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[f4 C]   ep 1/60 loss=0.0016 9s
+[f4 C]   ep 10/60 loss=0.0000 9s
+[f4 C]   ep 20/60 loss=0.0001 9s
+[f4 C]   ep 30/60 loss=0.0001 4s
+[f4 C]   ep 40/60 loss=0.0002 4s
+[f4 C]   ep 50/60 loss=0.0002 9s
+[f4 C]   ep 60/60 loss=0.0003 14s
+[f4] joint FEI+C AUROC 0.841  AUC-PR 0.634  Acc 0.828  BAcc 0.767  F1 0.574  Sens 0.675  Spec 0.860  [TP 56 FP 56 TN 344 FN 27]  (NMT-only 0.855)
+NMT CV FEI@4000  joint 0.829±0.023  NMT-only 0.819±0.029  delta +0.010 (4/5)
+NMT CV C         joint 0.822±0.016  NMT-only 0.836±0.021  delta -0.014 (0/5)
+NMT CV FEI+C     joint 0.855±0.025  NMT-only 0.865±0.024  delta -0.010 (1/5)
+FEIC JOINT DONE

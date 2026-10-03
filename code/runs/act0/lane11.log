@@ -1,0 +1,4 @@
+[2026-09-26 18:24:17] LANE START (waiting for lane 10, pid 443941)
+[2026-09-26 18:57:41] LANE STOPPED for scope trim: ft/scratch c60 removed; relaunching
+[2026-09-26 18:57:45] LANE START (waiting for lane 10, pid 443941)
+[2026-09-26 19:03:38] LANE CANCELLED (scope trimmed to essential runs before 21:00)

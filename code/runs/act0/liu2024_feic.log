@@ -1,0 +1,34 @@
+config: L=800(4s) nfft=200 hop=100 -> 7 frames x 101 bins; ctx=4 predict 3
+  embed joint_f0
+  embed joint_f1
+  embed joint_f2
+  embed joint_f3
+  embed joint_f4
+  embed nmt_f0
+  embed nmt_f1
+  embed nmt_f2
+  embed nmt_f3
+  embed nmt_f4
+  embed rand0
+  embed rand1
+  embed rand2
+  MI joint:FEI    acc 52.0±9.6  AUROC 0.546  vs-chance p 0.317
+  MI joint:C      acc 50.9±9.7  AUROC 0.533  vs-chance p 0.850
+  MI joint:FEI+C  acc 51.7±10.3  AUROC 0.539  vs-chance p 0.695
+  MI nmt:FEI      acc 51.1±9.7  AUROC 0.541  vs-chance p 0.758
+  MI nmt:C        acc 49.6±10.0  AUROC 0.516  vs-chance p 0.367
+  MI nmt:FEI+C    acc 49.5±10.4  AUROC 0.515  vs-chance p 0.241
+  MI rand:FEI     acc 52.7±10.8  AUROC 0.556  vs-chance p 0.278
+  MI rand:C       acc 49.8±8.5  AUROC 0.527  vs-chance p 0.461
+  MI rand:FEI+C   acc 51.3±10.0  AUROC 0.548  vs-chance p 0.728
+  MI bandpower    acc 53.1±10.5  AUROC 0.559  vs-chance p 0.132
+  MI CSP+LDA      acc 50.8±9.5  AUROC None  vs-chance p 0.956
+  MI FgMDM        acc 52.2±11.9  AUROC None  vs-chance p 0.826
+  MI paired joint:FEI+C - rand:FEI+C     +0.4 pt  wins 23/50  p 0.971
+  MI paired joint:FEI+C - nmt:FEI+C      +2.2 pt  wins 28/50  p 0.027
+  MI paired joint:FEI - rand:FEI         -0.7 pt  wins 23/50  p 0.469
+  MI paired joint:FEI - nmt:FEI          +0.9 pt  wins 26/50  p 0.370
+  MI paired joint:FEI+C - bandpower      -1.4 pt  wins 21/50  p 0.262
+  MI paired joint:FEI+C - CSP+LDA        +0.9 pt  wins 29/50  p 0.415
+  MI paired joint:FEI+C - FgMDM          -0.5 pt  wins 28/50  p 0.769
+  side ASYM              AUROC 0.659  AUC-PR 0.575  Acc 0.620  BAcc 0.617  F1 0.578  Sens 0.591  Spec 0.643  [TP 13 FP 10 TN 18 FN 9]  perm p 0.075

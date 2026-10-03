@@ -1,0 +1,29 @@
+  primary     BSI                loso 0.907  kf5 0.920±0.012  lpo 0.944  kf5 perm p 0.005
+  primary     VJEPA              loso 0.981  kf5 0.975±0.028  lpo 1.000  kf5 perm p 0.015
+  primary     VJEPA+BSI          loso 0.981  kf5 0.976±0.027  lpo 1.000
+  primary     rand-VJEPA         loso 0.833  kf5 0.842±0.051  lpo 0.889  kf5 perm p 0.030
+  primary     rand-VJEPA+BSI     loso 0.870  kf5 0.857±0.049  lpo 0.907
+  primary     rand-FEI+C         loso 0.889  kf5 0.856±0.049  lpo 0.926  kf5 perm p 0.030
+  primary     rand-FEI+C+BSI     loso 0.907  kf5 0.891±0.044  lpo 0.963
+  primary     rand-FEI           loso 0.741  kf5 0.728±0.066  lpo 0.778
+  primary     rand-C             loso 0.907  kf5 0.900±0.046  lpo 0.963
+  primary     FEI+C              loso 0.833  kf5 0.874±0.042  lpo 0.870  kf5 perm p 0.020
+  primary     FEI+C+BSI          loso 0.926  kf5 0.916±0.031  lpo 0.944  kf5 perm p 0.010
+  primary     FEI                loso 0.852  kf5 0.841±0.057  lpo 0.926
+  primary     C                  loso 0.870  kf5 0.875±0.051  lpo 0.889
+  primary     FEI+C (joint)      loso 0.778  kf5 0.791±0.035  lpo 0.852  kf5 perm p 0.060
+  primary     FEI+C+BSI (joint)  loso 0.778  kf5 0.804±0.030  lpo 0.852  kf5 perm p 0.035
+  primary     FEI (joint)        loso 0.648  kf5 0.668±0.073  lpo 0.741
+  primary     C (joint)          loso 0.815  kf5 0.846±0.032  lpo 0.889
+
+== primary (n=15, 9 stroke) ==
+  VJEPA+BSI vs BSI               kf5 Δ +0.056 (A better in 93% of repeats)   lpo Δ +0.056 [+0.000, +0.222] p(Δ≤0) 0.36
+  VJEPA vs rand-VJEPA            kf5 Δ +0.133 (A better in 100% of repeats)   lpo Δ +0.111 [+0.000, +0.296] p(Δ≤0) 0.07
+  FEI+C vs VJEPA                 kf5 Δ -0.101 (A better in 2% of repeats)   lpo Δ -0.130 [-0.352, +0.000] p(Δ≤0) 1.00
+  FEI+C vs rand-FEI+C            kf5 Δ +0.018 (A better in 57% of repeats)   lpo Δ -0.056 [-0.259, +0.111] p(Δ≤0) 0.82
+  FEI+C vs BSI                   kf5 Δ -0.046 (A better in 19% of repeats)   lpo Δ -0.074 [-0.315, +0.148] p(Δ≤0) 0.79
+  FEI+C+BSI vs BSI               kf5 Δ -0.004 (A better in 57% of repeats)   lpo Δ +0.000 [-0.185, +0.167] p(Δ≤0) 0.57
+  FEI+C (joint) vs rand-FEI+C    kf5 Δ -0.066 (A better in 8% of repeats)   lpo Δ -0.074 [-0.222, +0.000] p(Δ≤0) 1.00
+  FEI vs rand-FEI                kf5 Δ +0.113 (A better in 91% of repeats)   lpo Δ +0.148 [-0.056, +0.444] p(Δ≤0) 0.15
+  C vs rand-C                    kf5 Δ -0.025 (A better in 31% of repeats)   lpo Δ -0.074 [-0.222, +0.000] p(Δ≤0) 1.00
+[2026-09-26 19:06:42] CV primary saved; stopped CV before sensitivity (trim)

@@ -1,0 +1,93 @@
+[rep3_f0 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep3_f0 FEI]   epoch 1/60  loss=0.0095  1s
+[rep3_f0 FEI]   epoch 10/60  loss=0.0006  1s
+[rep3_f0 FEI]   epoch 20/60  loss=0.0003  0s
+[rep3_f0 FEI]   epoch 30/60  loss=0.0002  0s
+[rep3_f0 FEI]   epoch 40/60  loss=0.0002  0s
+[rep3_f0 FEI]   epoch 50/60  loss=0.0002  0s
+[rep3_f0 FEI]   epoch 60/60  loss=0.0002  0s
+[rep3_f1 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep3_f1 FEI]   epoch 1/60  loss=0.0102  1s
+[rep3_f1 FEI]   epoch 10/60  loss=0.0006  0s
+[rep3_f1 FEI]   epoch 20/60  loss=0.0003  0s
+[rep3_f1 FEI]   epoch 30/60  loss=0.0002  0s
+[rep3_f1 FEI]   epoch 40/60  loss=0.0002  0s
+[rep3_f1 FEI]   epoch 50/60  loss=0.0002  0s
+[rep3_f1 FEI]   epoch 60/60  loss=0.0002  0s
+[rep3_f2 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep3_f2 FEI]   epoch 1/60  loss=0.0100  1s
+[rep3_f2 FEI]   epoch 10/60  loss=0.0006  0s
+[rep3_f2 FEI]   epoch 20/60  loss=0.0003  0s
+[rep3_f2 FEI]   epoch 30/60  loss=0.0002  5s
+[rep3_f2 FEI]   epoch 40/60  loss=0.0002  0s
+[rep3_f2 FEI]   epoch 50/60  loss=0.0002  0s
+[rep3_f2 FEI]   epoch 60/60  loss=0.0001  0s
+[rep3_f3 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep3_f3 FEI]   epoch 1/60  loss=0.0107  6s
+[rep3_f3 FEI]   epoch 10/60  loss=0.0006  0s
+[rep3_f3 FEI]   epoch 20/60  loss=0.0004  0s
+[rep3_f3 FEI]   epoch 30/60  loss=0.0003  0s
+[rep3_f3 FEI]   epoch 40/60  loss=0.0002  0s
+[rep3_f3 FEI]   epoch 50/60  loss=0.0001  0s
+[rep3_f3 FEI]   epoch 60/60  loss=0.0001  0s
+[rep3_f4 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep3_f4 FEI]   epoch 1/60  loss=0.0098  0s
+[rep3_f4 FEI]   epoch 10/60  loss=0.0006  0s
+[rep3_f4 FEI]   epoch 20/60  loss=0.0003  0s
+[rep3_f4 FEI]   epoch 30/60  loss=0.0003  0s
+[rep3_f4 FEI]   epoch 40/60  loss=0.0002  0s
+[rep3_f4 FEI]   epoch 50/60  loss=0.0002  0s
+[rep3_f4 FEI]   epoch 60/60  loss=0.0002  0s
+[rep4_f0 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep4_f0 FEI]   epoch 1/60  loss=0.0095  0s
+[rep4_f0 FEI]   epoch 10/60  loss=0.0006  0s
+[rep4_f0 FEI]   epoch 20/60  loss=0.0004  0s
+[rep4_f0 FEI]   epoch 30/60  loss=0.0003  0s
+[rep4_f0 FEI]   epoch 40/60  loss=0.0002  0s
+[rep4_f0 FEI]   epoch 50/60  loss=0.0002  0s
+[rep4_f0 FEI]   epoch 60/60  loss=0.0001  0s
+[rep4_f1 FEI] FEI (uniform mask) on 1933 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep4_f1 FEI]   epoch 1/60  loss=0.0109  0s
+[rep4_f1 FEI]   epoch 10/60  loss=0.0006  0s
+[rep4_f1 FEI]   epoch 20/60  loss=0.0004  0s
+[rep4_f1 FEI]   epoch 30/60  loss=0.0003  0s
+[rep4_f1 FEI]   epoch 40/60  loss=0.0002  0s
+[rep4_f1 FEI]   epoch 50/60  loss=0.0002  0s
+[rep4_f1 FEI]   epoch 60/60  loss=0.0001  0s
+[rep4_f2 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep4_f2 FEI]   epoch 1/60  loss=0.0101  0s
+[rep4_f2 FEI]   epoch 10/60  loss=0.0006  0s
+[rep4_f2 FEI]   epoch 20/60  loss=0.0004  0s
+[rep4_f2 FEI]   epoch 30/60  loss=0.0003  0s
+[rep4_f2 FEI]   epoch 40/60  loss=0.0002  0s
+[rep4_f2 FEI]   epoch 50/60  loss=0.0001  0s
+[rep4_f2 FEI]   epoch 60/60  loss=0.0001  0s
+[rep4_f3 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep4_f3 FEI]   epoch 1/60  loss=0.0113  0s
+[rep4_f3 FEI]   epoch 10/60  loss=0.0006  0s
+[rep4_f3 FEI]   epoch 20/60  loss=0.0003  0s
+[rep4_f3 FEI]   epoch 30/60  loss=0.0002  0s
+[rep4_f3 FEI]   epoch 40/60  loss=0.0002  0s
+[rep4_f3 FEI]   epoch 50/60  loss=0.0002  0s
+[rep4_f3 FEI]   epoch 60/60  loss=0.0001  0s
+[rep4_f4 FEI] FEI (uniform mask) on 1934 recs: 1.15M params L=1000 n_freq=501 steps/epoch=60 dev=cuda
+[rep4_f4 FEI]   epoch 1/60  loss=0.0106  0s
+[rep4_f4 FEI]   epoch 10/60  loss=0.0006  0s
+[rep4_f4 FEI]   epoch 20/60  loss=0.0003  0s
+[rep4_f4 FEI]   epoch 30/60  loss=0.0003  0s
+[rep4_f4 FEI]   epoch 40/60  loss=0.0002  0s
+[rep4_f4 FEI]   epoch 50/60  loss=0.0001  0s
+[rep4_f4 FEI]   epoch 60/60  loss=0.0001  0s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed 500/2993
+  embed 1000/2993
+  embed 1500/2993
+  embed 2000/2993
+  embed 2500/2993
+rep0: FEI 0.872  rand 0.813  delta +0.059 CI [0.02  0.096] p 0.001  members [0.86  0.842 0.83  0.842 0.856]
+rep1: FEI 0.859  rand 0.813  delta +0.046 CI [0.011 0.083] p 0.007  members [0.85  0.81  0.826 0.818 0.847]
+rep2: FEI 0.866  rand 0.813  delta +0.052 CI [0.016 0.09 ] p 0.004  members [0.87  0.846 0.85  0.831 0.825]
+rep3: FEI 0.849  rand 0.813  delta +0.036 CI [-0.005  0.076] p 0.045  members [0.826 0.847 0.842 0.774 0.824]
+rep4: FEI 0.860  rand 0.813  delta +0.047 CI [0.007 0.086] p 0.010  members [0.849 0.828 0.839 0.829 0.84 ]
+23/25 24/25
+pooled over runs and recordings: {'delta': 0.047989417989418026, 'ci': [0.010807012462368546, 0.08386495030488733], 'p_le0': 0.007, 'n_runs': 5}

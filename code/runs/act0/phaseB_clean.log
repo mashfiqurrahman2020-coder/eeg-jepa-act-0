@@ -1,0 +1,155 @@
+[2026-09-26 18:55:19] waiting for phaseB_cv (pid 579789)
+[2026-09-26 19:03:38] chain stopped for re-plan (primary cohort only; 21:00 deadline)
+[2026-09-26 19:04:02] waiting for phaseB_cv (pid 579789) to finish the primary cohort
+[2026-09-26 19:06:42] CV primary saved; stopped CV before sensitivity (trim)
+[2026-09-26 19:06:42] START clean (primary only)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:61: RuntimeWarning: Online software filter detected. Using software filter settings and ignoring hardware values
+  raw = mne.io.read_raw_brainvision(f"{RAW}/{subj}.vhdr", preload=False, verbose=False)
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:63: RuntimeWarning: The unit for channel(s) A1 has changed from V to NA.
+  raw.set_channel_types({c: "eog" for c in raw.ch_names if "EOG" in c} | {"A1": "misc"})
+/home/mashfiq/eeg_vjepa/code/stroke_phaseB.py:64: RuntimeWarning: Not setting position of 1 misc channel found in montage:
+['A1']
+Consider setting the channel types to be of EEG/sEEG/ECoG/DBS/fNIRS using inst.set_channel_types before calling inst.set_montage, or omit these channels when creating your montage.
+  raw.set_montage("standard_1005", match_case=False, on_missing="ignore", verbose=False)
+PSD GATE primary: PASS  max|dev| 0.184 (prereg prep 5.811)  var<0.5Hz 0.0031 >40Hz 0.0001  NMT 0.0018/0.0000
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed primary f0: C rec_std 0.290 const 0.00 (NMT 0.386)  BN max|z| 0.36 (prereg prep 4.26)
+  embed primary f1: C rec_std 0.298 const 0.00 (NMT 0.392)  BN max|z| 0.37 (prereg prep 4.26)
+  embed primary f2: C rec_std 0.286 const 0.00 (NMT 0.378)  BN max|z| 0.36 (prereg prep 4.28)
+  embed primary f3: C rec_std 0.283 const 0.00 (NMT 0.381)  BN max|z| 0.38 (prereg prep 4.29)
+  embed primary f4: C rec_std 0.306 const 0.00 (NMT 0.404)  BN max|z| 0.38 (prereg prep 4.31)
+  embed primary rand0: C rec_std 0.095 const 0.00
+  embed primary rand1: C rec_std 0.098 const 0.00
+  embed primary rand2: C rec_std 0.096 const 0.00
+EMBED GATE primary: PASS  BN max|z| 0.38  C std ratio 0.74  const 0.00
+  primary     FEI+C           AUROC 0.926  AUC-PR 0.966  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  perm p 0.003  kf5 0.918±0.051  lpo 0.981
+  primary     FEI+C+BSI       AUROC 0.963  AUC-PR 0.980  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  kf5 0.951±0.039  lpo 0.981
+  primary     rand-FEI+C      AUROC 0.944  AUC-PR 0.972  Acc 0.867  BAcc 0.861  F1 0.889  Sens 0.889  Spec 0.833  [TP 8 FP 1 TN 5 FN 1]  perm p 0.004  kf5 0.930±0.037  lpo 1.000
+  primary     rand-FEI+C+BSI  AUROC 0.944  AUC-PR 0.972  Acc 0.933  BAcc 0.944  F1 0.941  Sens 0.889  Spec 1.000  [TP 8 FP 0 TN 6 FN 1]  kf5 0.942±0.033  lpo 1.000
+  primary     FEI             AUROC 1.000  AUC-PR 1.000  Acc 1.000  BAcc 1.000  F1 1.000  Sens 1.000  Spec 1.000  [TP 9 FP 0 TN 6 FN 0]  kf5 1.000±0.000  lpo 1.000
+  primary     C               AUROC 0.833  AUC-PR 0.919  Acc 0.733  BAcc 0.722  F1 0.778  Sens 0.778  Spec 0.667  [TP 7 FP 2 TN 4 FN 2]  kf5 0.819±0.063  lpo 0.852
+  primary     rand-FEI        AUROC 0.907  AUC-PR 0.944  Acc 0.800  BAcc 0.806  F1 0.824  Sens 0.778  Spec 0.833  [TP 7 FP 1 TN 5 FN 2]  kf5 0.903±0.049  lpo 0.981
+  primary     rand-C          AUROC 0.852  AUC-PR 0.924  Acc 0.800  BAcc 0.806  F1 0.824  Sens 0.778  Spec 0.833  [TP 7 FP 1 TN 5 FN 2]  kf5 0.876±0.035  lpo 0.907
+
+== primary (n=15, 9 stroke) ==
+  FEI+C vs rand-FEI+C              loso Δ -0.019 [-0.182, +0.100]  kf5 Δ -0.012 (41%)  lpo Δ -0.019 p(Δ≤0) 1.00
+  FEI+C vs BSI                     loso Δ +0.019 [-0.240, +0.280]  kf5 Δ -0.001 (60%)  lpo Δ +0.037 p(Δ≤0) 0.42
+  FEI+C+BSI vs BSI                 loso Δ +0.056 [-0.120, +0.296]  kf5 Δ +0.031 (82%)  lpo Δ +0.037 p(Δ≤0) 0.42
+  FEI+C vs FEI+C (orig prep)       loso Δ +0.093 [-0.120, +0.361]  kf5 Δ +0.045 (71%)  lpo Δ +0.111 p(Δ≤0) 0.06
+  FEI+C vs VJEPA                   loso Δ -0.056 [-0.273, +0.077]  kf5 Δ -0.057 (8%)  lpo Δ -0.019 p(Δ≤0) 1.00
+  C vs rand-C                      loso Δ -0.019 [-0.120, +0.071]  kf5 Δ -0.057 (16%)  lpo Δ -0.056 p(Δ≤0) 0.81
+  FEI vs rand-FEI                  loso Δ +0.093 [+0.000, +0.286]  kf5 Δ +0.097 (100%)  lpo Δ +0.019 p(Δ≤0) 0.56
+PHASE B CLEAN DONE
+[2026-09-26 19:16:21] END rc=0

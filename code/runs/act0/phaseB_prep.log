@@ -1,0 +1,4 @@
+preregistration sha256: c66463066a4f3dc50e21cf82f3debc2c5d5b1ae4d8ac6ec1502e9617ba8d7321
+GATE primary: PASS  rel_delta p=0.008+  rel_theta p=0.036+  rel_alpha p=0.050-  rel_beta p=0.026-  dar p=0.018+  dtabr p=0.002+  bsi_1_30 p=0.003+  bsi_delta p=0.005+  bsi_theta p=0.113+  bsi_alpha p=0.012+  bsi_beta p=0.003+
+GATE sensitivity: PASS  rel_delta p=0.068+  rel_theta p=0.016+  rel_alpha p=0.173-  rel_beta p=0.068-  dar p=0.122+  dtabr p=0.027+  bsi_1_30 p=0.000+  bsi_delta p=0.001+  bsi_theta p=0.021+  bsi_alpha p=0.002+  bsi_beta p=0.001+
+stages done: --prep

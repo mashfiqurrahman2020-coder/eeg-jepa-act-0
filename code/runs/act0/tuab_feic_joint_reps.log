@@ -1,0 +1,214 @@
+[rep1 f0 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep1 f0 FEI]   epoch 1/60  loss=0.0061  3s
+[rep1 f0 FEI]   epoch 10/60  loss=0.0003  2s
+[rep1 f0 FEI]   epoch 20/60  loss=0.0002  2s
+[rep1 f0 FEI]   epoch 30/60  loss=0.0002  2s
+[rep1 f0 FEI]   epoch 40/60  loss=0.0001  2s
+[rep1 f0 FEI]   epoch 50/60  loss=0.0001  2s
+[rep1 f0 FEI]   epoch 60/60  loss=0.0002  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1 f0 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep1 f0 GTJ]   ep 1/60 loss=0.0015 4s
+[rep1 f0 GTJ]   ep 10/60 loss=0.0000 4s
+[rep1 f0 GTJ]   ep 20/60 loss=0.0000 4s
+[rep1 f0 GTJ]   ep 30/60 loss=0.0001 4s
+[rep1 f0 GTJ]   ep 40/60 loss=0.0001 4s
+[rep1 f0 GTJ]   ep 50/60 loss=0.0002 5s
+[rep1 f0 GTJ]   ep 60/60 loss=0.0002 4s
+[rep1 f1 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep1 f1 FEI]   epoch 1/60  loss=0.0064  2s
+[rep1 f1 FEI]   epoch 10/60  loss=0.0003  2s
+[rep1 f1 FEI]   epoch 20/60  loss=0.0002  2s
+[rep1 f1 FEI]   epoch 30/60  loss=0.0002  2s
+[rep1 f1 FEI]   epoch 40/60  loss=0.0001  2s
+[rep1 f1 FEI]   epoch 50/60  loss=0.0001  2s
+[rep1 f1 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1 f1 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep1 f1 GTJ]   ep 1/60 loss=0.0016 4s
+[rep1 f1 GTJ]   ep 10/60 loss=0.0000 4s
+[rep1 f1 GTJ]   ep 20/60 loss=0.0001 4s
+[rep1 f1 GTJ]   ep 30/60 loss=0.0001 4s
+[rep1 f1 GTJ]   ep 40/60 loss=0.0001 4s
+[rep1 f1 GTJ]   ep 50/60 loss=0.0002 4s
+[rep1 f1 GTJ]   ep 60/60 loss=0.0002 4s
+[rep1 f2 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep1 f2 FEI]   epoch 1/60  loss=0.0056  2s
+[rep1 f2 FEI]   epoch 10/60  loss=0.0003  2s
+[rep1 f2 FEI]   epoch 20/60  loss=0.0002  2s
+[rep1 f2 FEI]   epoch 30/60  loss=0.0002  2s
+[rep1 f2 FEI]   epoch 40/60  loss=0.0001  2s
+[rep1 f2 FEI]   epoch 50/60  loss=0.0001  2s
+[rep1 f2 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1 f2 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep1 f2 GTJ]   ep 1/60 loss=0.0019 4s
+[rep1 f2 GTJ]   ep 10/60 loss=0.0000 5s
+[rep1 f2 GTJ]   ep 20/60 loss=0.0000 4s
+[rep1 f2 GTJ]   ep 30/60 loss=0.0001 4s
+[rep1 f2 GTJ]   ep 40/60 loss=0.0001 5s
+[rep1 f2 GTJ]   ep 50/60 loss=0.0002 4s
+[rep1 f2 GTJ]   ep 60/60 loss=0.0002 4s
+[rep1 f3 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep1 f3 FEI]   epoch 1/60  loss=0.0059  2s
+[rep1 f3 FEI]   epoch 10/60  loss=0.0003  2s
+[rep1 f3 FEI]   epoch 20/60  loss=0.0002  2s
+[rep1 f3 FEI]   epoch 30/60  loss=0.0002  2s
+[rep1 f3 FEI]   epoch 40/60  loss=0.0002  2s
+[rep1 f3 FEI]   epoch 50/60  loss=0.0001  7s
+[rep1 f3 FEI]   epoch 60/60  loss=0.0001  7s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1 f3 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep1 f3 GTJ]   ep 1/60 loss=0.0017 5s
+[rep1 f3 GTJ]   ep 10/60 loss=0.0000 5s
+[rep1 f3 GTJ]   ep 20/60 loss=0.0000 4s
+[rep1 f3 GTJ]   ep 30/60 loss=0.0001 4s
+[rep1 f3 GTJ]   ep 40/60 loss=0.0001 4s
+[rep1 f3 GTJ]   ep 50/60 loss=0.0002 4s
+[rep1 f3 GTJ]   ep 60/60 loss=0.0002 4s
+[rep1 f4 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep1 f4 FEI]   epoch 1/60  loss=0.0056  2s
+[rep1 f4 FEI]   epoch 10/60  loss=0.0003  2s
+[rep1 f4 FEI]   epoch 20/60  loss=0.0002  2s
+[rep1 f4 FEI]   epoch 30/60  loss=0.0002  2s
+[rep1 f4 FEI]   epoch 40/60  loss=0.0002  2s
+[rep1 f4 FEI]   epoch 50/60  loss=0.0001  2s
+[rep1 f4 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep1 f4 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep1 f4 GTJ]   ep 1/60 loss=0.0018 4s
+[rep1 f4 GTJ]   ep 10/60 loss=0.0000 9s
+[rep1 f4 GTJ]   ep 20/60 loss=0.0001 4s
+[rep1 f4 GTJ]   ep 30/60 loss=0.0001 4s
+[rep1 f4 GTJ]   ep 40/60 loss=0.0002 4s
+[rep1 f4 GTJ]   ep 50/60 loss=0.0002 4s
+[rep1 f4 GTJ]   ep 60/60 loss=0.0002 4s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed fei rep1 f0
+  embed c rep1 f0
+  embed fei rep1 f1
+  embed c rep1 f1
+  embed fei rep1 f2
+  embed c rep1 f2
+  embed fei rep1 f3
+  embed c rep1 f3
+  embed fei rep1 f4
+  embed c rep1 f4
+FEI    rep0: AUROC 0.859  rand 0.813  vs rand +0.046 (p 0.009)  vs ViT-M +0.021 (p 0.195)
+FEI    rep1: AUROC 0.840  rand 0.813  vs rand +0.027 (p 0.113)  vs ViT-M +0.002 (p 0.471)
+FEI    pooled over 2 runs: vs rand {'delta': 0.03666666666666685, 'ci': [-0.006032245369488795, 0.07772813611795272], 'p_le0': 0.0525}  vs ViT-M {'delta': 0.011428571428571566, 'ci': [-0.03709769102249579, 0.06083439361647717], 'p_le0': 0.3285}
+C      rep0: AUROC 0.858  rand 0.863  vs rand -0.005 (p 0.658)  vs ViT-M +0.020 (p 0.228)
+C      rep1: AUROC 0.846  rand 0.863  vs rand -0.017 (p 0.879)  vs ViT-M +0.008 (p 0.382)
+C      pooled over 2 runs: vs rand {'delta': -0.011005291005291018, 'ci': [-0.04196082017676413, 0.01715867652365872], 'p_le0': 0.7755}  vs ViT-M {'delta': 0.013915343915343992, 'ci': [-0.03551321803625368, 0.0656902167612853], 'p_le0': 0.302}
+FEI+C  rep0: AUROC 0.863  rand 0.861  vs rand +0.001 (p 0.468)  vs ViT-M +0.024 (p 0.151)
+FEI+C  rep1: AUROC 0.851  rand 0.861  vs rand -0.010 (p 0.734)  vs ViT-M +0.013 (p 0.318)
+FEI+C  pooled over 2 runs: vs rand {'delta': -0.004470899470899403, 'ci': [-0.04038171668870878, 0.027115659206945184], 'p_le0': 0.5985}  vs ViT-M {'delta': 0.01849206349206356, 'ci': [-0.02929526748971182, 0.06676773527645052], 'p_le0': 0.2285}
+[rep2 f0 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep2 f0 FEI]   epoch 1/60  loss=0.0057  2s
+[rep2 f0 FEI]   epoch 10/60  loss=0.0003  2s
+[rep2 f0 FEI]   epoch 20/60  loss=0.0002  2s
+[rep2 f0 FEI]   epoch 30/60  loss=0.0002  2s
+[rep2 f0 FEI]   epoch 40/60  loss=0.0002  2s
+[rep2 f0 FEI]   epoch 50/60  loss=0.0001  2s
+[rep2 f0 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep2 f0 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep2 f0 GTJ]   ep 1/60 loss=0.0017 4s
+[rep2 f0 GTJ]   ep 10/60 loss=0.0000 4s
+[rep2 f0 GTJ]   ep 20/60 loss=0.0001 4s
+[rep2 f0 GTJ]   ep 30/60 loss=0.0001 4s
+[rep2 f0 GTJ]   ep 40/60 loss=0.0002 4s
+[rep2 f0 GTJ]   ep 50/60 loss=0.0002 4s
+[rep2 f0 GTJ]   ep 60/60 loss=0.0003 4s
+[rep2 f1 FEI] FEI (uniform mask) on 4650 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep2 f1 FEI]   epoch 1/60  loss=0.0060  2s
+[rep2 f1 FEI]   epoch 10/60  loss=0.0003  2s
+[rep2 f1 FEI]   epoch 20/60  loss=0.0002  2s
+[rep2 f1 FEI]   epoch 30/60  loss=0.0002  2s
+[rep2 f1 FEI]   epoch 40/60  loss=0.0002  2s
+[rep2 f1 FEI]   epoch 50/60  loss=0.0002  2s
+[rep2 f1 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep2 f1 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4650 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep2 f1 GTJ]   ep 1/60 loss=0.0013 4s
+[rep2 f1 GTJ]   ep 10/60 loss=0.0000 4s
+[rep2 f1 GTJ]   ep 20/60 loss=0.0000 4s
+[rep2 f1 GTJ]   ep 30/60 loss=0.0001 4s
+[rep2 f1 GTJ]   ep 40/60 loss=0.0001 4s
+[rep2 f1 GTJ]   ep 50/60 loss=0.0002 4s
+[rep2 f1 GTJ]   ep 60/60 loss=0.0002 4s
+[rep2 f2 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep2 f2 FEI]   epoch 1/60  loss=0.0055  2s
+[rep2 f2 FEI]   epoch 10/60  loss=0.0004  2s
+[rep2 f2 FEI]   epoch 20/60  loss=0.0002  2s
+[rep2 f2 FEI]   epoch 30/60  loss=0.0002  2s
+[rep2 f2 FEI]   epoch 40/60  loss=0.0002  2s
+[rep2 f2 FEI]   epoch 50/60  loss=0.0002  2s
+[rep2 f2 FEI]   epoch 60/60  loss=0.0002  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep2 f2 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep2 f2 GTJ]   ep 1/60 loss=0.0017 9s
+[rep2 f2 GTJ]   ep 10/60 loss=0.0000 9s
+[rep2 f2 GTJ]   ep 20/60 loss=0.0001 4s
+[rep2 f2 GTJ]   ep 30/60 loss=0.0001 4s
+[rep2 f2 GTJ]   ep 40/60 loss=0.0002 4s
+[rep2 f2 GTJ]   ep 50/60 loss=0.0002 4s
+[rep2 f2 GTJ]   ep 60/60 loss=0.0002 4s
+[rep2 f3 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep2 f3 FEI]   epoch 1/60  loss=0.0056  2s
+[rep2 f3 FEI]   epoch 10/60  loss=0.0003  2s
+[rep2 f3 FEI]   epoch 20/60  loss=0.0002  2s
+[rep2 f3 FEI]   epoch 30/60  loss=0.0002  2s
+[rep2 f3 FEI]   epoch 40/60  loss=0.0001  2s
+[rep2 f3 FEI]   epoch 50/60  loss=0.0001  2s
+[rep2 f3 FEI]   epoch 60/60  loss=0.0001  7s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep2 f3 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep2 f3 GTJ]   ep 1/60 loss=0.0016 4s
+[rep2 f3 GTJ]   ep 10/60 loss=0.0000 4s
+[rep2 f3 GTJ]   ep 20/60 loss=0.0001 4s
+[rep2 f3 GTJ]   ep 30/60 loss=0.0001 9s
+[rep2 f3 GTJ]   ep 40/60 loss=0.0002 4s
+[rep2 f3 GTJ]   ep 50/60 loss=0.0002 9s
+[rep2 f3 GTJ]   ep 60/60 loss=0.0002 9s
+[rep2 f4 FEI] FEI (uniform mask) on 4651 recs: 1.15M params L=1000 n_freq=501 steps/epoch=145 dev=cuda
+[rep2 f4 FEI]   epoch 1/60  loss=0.0062  2s
+[rep2 f4 FEI]   epoch 10/60  loss=0.0003  2s
+[rep2 f4 FEI]   epoch 20/60  loss=0.0002  2s
+[rep2 f4 FEI]   epoch 30/60  loss=0.0002  2s
+[rep2 f4 FEI]   epoch 40/60  loss=0.0001  2s
+[rep2 f4 FEI]   epoch 50/60  loss=0.0001  7s
+[rep2 f4 FEI]   epoch 60/60  loss=0.0001  2s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+[rep2 f4 GTJ] Branch-C (spectral-dynamics past->future, enc=gru) on 4651 recs: 1.88M params steps/ep=145 T=39 ctx=23
+[rep2 f4 GTJ]   ep 1/60 loss=0.0016 4s
+[rep2 f4 GTJ]   ep 10/60 loss=0.0001 9s
+[rep2 f4 GTJ]   ep 20/60 loss=0.0001 4s
+[rep2 f4 GTJ]   ep 30/60 loss=0.0001 4s
+[rep2 f4 GTJ]   ep 40/60 loss=0.0002 4s
+[rep2 f4 GTJ]   ep 50/60 loss=0.0002 4s
+[rep2 f4 GTJ]   ep 60/60 loss=0.0002 4s
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed fei rep2 f0
+  embed c rep2 f0
+  embed fei rep2 f1
+  embed c rep2 f1
+  embed fei rep2 f2
+  embed c rep2 f2
+  embed fei rep2 f3
+  embed c rep2 f3
+  embed fei rep2 f4
+  embed c rep2 f4
+FEI    rep0: AUROC 0.859  rand 0.813  vs rand +0.046 (p 0.009)  vs ViT-M +0.021 (p 0.195)
+FEI    rep1: AUROC 0.840  rand 0.813  vs rand +0.027 (p 0.113)  vs ViT-M +0.002 (p 0.471)
+FEI    rep2: AUROC 0.854  rand 0.813  vs rand +0.041 (p 0.020)  vs ViT-M +0.016 (p 0.253)
+FEI    pooled over 3 runs: vs rand {'delta': 0.03827160493827175, 'ci': [-0.004220711022422874, 0.07911337619246503], 'p_le0': 0.041}  vs ViT-M {'delta': 0.013033509700176471, 'ci': [-0.035879846963934536, 0.06339796656076899], 'p_le0': 0.2915}
+C      rep0: AUROC 0.858  rand 0.863  vs rand -0.005 (p 0.658)  vs ViT-M +0.020 (p 0.228)
+C      rep1: AUROC 0.846  rand 0.863  vs rand -0.017 (p 0.879)  vs ViT-M +0.008 (p 0.382)
+C      rep2: AUROC 0.840  rand 0.863  vs rand -0.023 (p 0.944)  vs ViT-M +0.001 (p 0.486)
+C      pooled over 3 runs: vs rand {'delta': -0.015149911816578543, 'ci': [-0.04469740096996272, 0.012753395908187982], 'p_le0': 0.854}  vs ViT-M {'delta': 0.009770723104056467, 'ci': [-0.0406705223460541, 0.06128864740936015], 'p_le0': 0.3505}
+FEI+C  rep0: AUROC 0.863  rand 0.861  vs rand +0.001 (p 0.468)  vs ViT-M +0.024 (p 0.151)
+FEI+C  rep1: AUROC 0.851  rand 0.861  vs rand -0.010 (p 0.734)  vs ViT-M +0.013 (p 0.318)
+FEI+C  rep2: AUROC 0.855  rand 0.861  vs rand -0.006 (p 0.665)  vs ViT-M +0.017 (p 0.242)
+FEI+C  pooled over 3 runs: vs rand {'delta': -0.005061728395061582, 'ci': [-0.03872629959518046, 0.026619991396674505], 'p_le0': 0.6305}  vs ViT-M {'delta': 0.01790123456790138, 'ci': [-0.028456174156378487, 0.06404320729097256], 'p_le0': 0.22}
+TUAB FEIC JOINT REPS DONE

@@ -1,0 +1,38 @@
+eval_name: eeg_classification_frozen
+pretrain:
+  folder: /home/mashfiq/eeg_vjepa/pretrained/
+  checkpoint: "eeg_vjepa_ViT-M_4×30×4.pth.tar"   # authors' pretrained ViT-M (embed 384, tubelet 4)
+  model_name: vit_small
+  patch_size: [4, 30]
+  frames_per_clip: 32
+  frame_step: 1
+  tubelet_size: 4
+  write_tag: nmt_linear_probe
+
+data:
+  dataset_type: VideoDataset
+  datasets: [/home/mashfiq/eeg_vjepa/data/NMT_preprocessed_100hz]
+  dataset_train: /home/mashfiq/eeg_vjepa/data/NMT_preprocessed_100hz   # full train split (mode='train')
+  dataset_val: /home/mashfiq/eeg_vjepa/data/NMT_preprocessed_100hz
+  supervised: false   # frozen encoder — the honest "SSL vs random" test (README's Frozen Eval)
+  num_classes: 2
+  num_workers: 4
+  num_segments: 1
+  num_views_per_segment: 1
+
+optimization:
+  resolution: 224
+  batch_size: 32
+  num_epochs: 30
+  encoder_lr: 0.0001
+  use_bfloat16: true
+  attend_across_segments: false
+  lr: 0.001
+  weight_decay: 0.0001
+  warmup: 0.1
+  start_lr: 0.001
+  final_lr: 0.0
+
+# our earlier NMT runs deviated from upstream here (upstream = attention head, unweighted CE)
+classifier: attentive
+class_weights: [2.912, 0.603]   # NMT: abnormal(0)=415, normal(1)=2002

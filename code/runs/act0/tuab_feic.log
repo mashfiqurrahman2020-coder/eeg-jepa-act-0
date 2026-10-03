@@ -1,0 +1,52 @@
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed f0
+  embed f1
+  embed f2
+  embed f3
+  embed f4
+  embed rand0
+  embed rand1
+  embed rand2
+s0         FEI         AUROC 0.839  AUC-PR 0.840  Acc 0.757  BAcc 0.751  F1 0.717  Sens 0.675  Spec 0.827  [TP 85 FP 26 TN 124 FN 41]  members 0.805±0.016
+s0         rand-FEI    AUROC 0.803  AUC-PR 0.818  Acc 0.743  BAcc 0.738  F1 0.708  Sens 0.683  Spec 0.793  [TP 86 FP 31 TN 119 FN 40]  members 0.768±0.032
+s0         C           AUROC 0.801  AUC-PR 0.784  Acc 0.757  BAcc 0.753  F1 0.727  Sens 0.706  Spec 0.800  [TP 89 FP 30 TN 120 FN 37]  members 0.761±0.012
+s0         rand-C      AUROC 0.815  AUC-PR 0.806  Acc 0.736  BAcc 0.736  F1 0.718  Sens 0.738  Spec 0.733  [TP 93 FP 40 TN 110 FN 33]  members 0.784±0.017
+s0         FEI+C       AUROC 0.813  AUC-PR 0.806  Acc 0.746  BAcc 0.743  F1 0.715  Sens 0.698  Spec 0.787  [TP 88 FP 32 TN 118 FN 38]  members 0.770±0.008
+s0         rand-FEI+C  AUROC 0.820  AUC-PR 0.808  Acc 0.736  BAcc 0.734  F1 0.714  Sens 0.722  Spec 0.747  [TP 91 FP 38 TN 112 FN 35]  members 0.787±0.014
+s1         FEI         AUROC 0.860  AUC-PR 0.857  Acc 0.761  BAcc 0.753  F1 0.718  Sens 0.667  Spec 0.840  [TP 84 FP 24 TN 126 FN 42]  members 0.825±0.014
+s1         rand-FEI    AUROC 0.817  AUC-PR 0.822  Acc 0.736  BAcc 0.732  F1 0.704  Sens 0.690  Spec 0.773  [TP 87 FP 34 TN 116 FN 39]  members 0.783±0.023
+s1         C           AUROC 0.804  AUC-PR 0.798  Acc 0.761  BAcc 0.754  F1 0.720  Sens 0.675  Spec 0.833  [TP 85 FP 25 TN 125 FN 41]  members 0.779±0.005
+s1         rand-C      AUROC 0.818  AUC-PR 0.784  Acc 0.754  BAcc 0.752  F1 0.732  Sens 0.738  Spec 0.767  [TP 93 FP 35 TN 115 FN 33]  members 0.791±0.019
+s1         FEI+C       AUROC 0.823  AUC-PR 0.812  Acc 0.783  BAcc 0.776  F1 0.746  Sens 0.698  Spec 0.853  [TP 88 FP 22 TN 128 FN 38]  members 0.793±0.009
+s1         rand-FEI+C  AUROC 0.837  AUC-PR 0.812  Acc 0.801  BAcc 0.801  F1 0.788  Sens 0.810  Spec 0.793  [TP 102 FP 31 TN 119 FN 24]  members 0.810±0.016
+s2         FEI         AUROC 0.836  AUC-PR 0.835  Acc 0.772  BAcc 0.768  F1 0.745  Sens 0.730  Spec 0.807  [TP 92 FP 29 TN 121 FN 34]  members 0.807±0.016
+s2         rand-FEI    AUROC 0.794  AUC-PR 0.802  Acc 0.732  BAcc 0.731  F1 0.711  Sens 0.722  Spec 0.740  [TP 91 FP 39 TN 111 FN 35]  members 0.764±0.020
+s2         C           AUROC 0.800  AUC-PR 0.793  Acc 0.761  BAcc 0.757  F1 0.730  Sens 0.706  Spec 0.807  [TP 89 FP 29 TN 121 FN 37]  members 0.777±0.017
+s2         rand-C      AUROC 0.842  AUC-PR 0.813  Acc 0.750  BAcc 0.749  F1 0.729  Sens 0.738  Spec 0.760  [TP 93 FP 36 TN 114 FN 33]  members 0.811±0.010
+s2         FEI+C       AUROC 0.819  AUC-PR 0.812  Acc 0.797  BAcc 0.793  F1 0.770  Sens 0.746  Spec 0.840  [TP 94 FP 24 TN 126 FN 32]  members 0.794±0.015
+s2         rand-FEI+C  AUROC 0.860  AUC-PR 0.836  Acc 0.775  BAcc 0.776  F1 0.762  Sens 0.786  Spec 0.767  [TP 99 FP 35 TN 115 FN 27]  members 0.828±0.003
+s3         FEI         AUROC 0.830  AUC-PR 0.827  Acc 0.736  BAcc 0.732  F1 0.704  Sens 0.690  Spec 0.773  [TP 87 FP 34 TN 116 FN 39]  members 0.807±0.014
+s3         rand-FEI    AUROC 0.782  AUC-PR 0.785  Acc 0.696  BAcc 0.691  F1 0.656  Sens 0.635  Spec 0.747  [TP 80 FP 38 TN 112 FN 46]  members 0.750±0.010
+s3         C           AUROC 0.813  AUC-PR 0.804  Acc 0.721  BAcc 0.717  F1 0.688  Sens 0.675  Spec 0.760  [TP 85 FP 36 TN 114 FN 41]  members 0.781±0.010
+s3         rand-C      AUROC 0.821  AUC-PR 0.810  Acc 0.710  BAcc 0.709  F1 0.685  Sens 0.690  Spec 0.727  [TP 87 FP 41 TN 109 FN 39]  members 0.797±0.011
+s3         FEI+C       AUROC 0.831  AUC-PR 0.815  Acc 0.772  BAcc 0.769  F1 0.747  Sens 0.738  Spec 0.800  [TP 93 FP 30 TN 120 FN 33]  members 0.794±0.013
+s3         rand-FEI+C  AUROC 0.830  AUC-PR 0.833  Acc 0.761  BAcc 0.755  F1 0.723  Sens 0.683  Spec 0.827  [TP 86 FP 26 TN 124 FN 40]  members 0.793±0.013
+s4         FEI         AUROC 0.812  AUC-PR 0.804  Acc 0.725  BAcc 0.721  F1 0.691  Sens 0.675  Spec 0.767  [TP 85 FP 35 TN 115 FN 41]  members 0.790±0.020
+s4         rand-FEI    AUROC 0.757  AUC-PR 0.783  Acc 0.659  BAcc 0.658  F1 0.633  Sens 0.643  Spec 0.673  [TP 81 FP 49 TN 101 FN 45]  members 0.737±0.028
+s4         C           AUROC 0.808  AUC-PR 0.804  Acc 0.710  BAcc 0.707  F1 0.677  Sens 0.667  Spec 0.747  [TP 84 FP 38 TN 112 FN 42]  members 0.771±0.017
+s4         rand-C      AUROC 0.799  AUC-PR 0.771  Acc 0.750  BAcc 0.750  F1 0.734  Sens 0.754  Spec 0.747  [TP 95 FP 38 TN 112 FN 31]  members 0.770±0.003
+s4         FEI+C       AUROC 0.818  AUC-PR 0.815  Acc 0.757  BAcc 0.754  F1 0.731  Sens 0.722  Spec 0.787  [TP 91 FP 32 TN 118 FN 35]  members 0.780±0.020
+s4         rand-FEI+C  AUROC 0.825  AUC-PR 0.821  Acc 0.761  BAcc 0.760  F1 0.740  Sens 0.746  Spec 0.773  [TP 94 FP 34 TN 116 FN 32]  members 0.793±0.010
+full_train FEI         AUROC 0.872  AUC-PR 0.871  Acc 0.790  BAcc 0.785  F1 0.760  Sens 0.730  Spec 0.840  [TP 92 FP 24 TN 126 FN 34]  members 0.846±0.011
+full_train rand-FEI    AUROC 0.813  AUC-PR 0.829  Acc 0.746  BAcc 0.743  F1 0.715  Sens 0.698  Spec 0.787  [TP 88 FP 32 TN 118 FN 38]  members 0.786±0.016
+full_train C           AUROC 0.840  AUC-PR 0.835  Acc 0.772  BAcc 0.768  F1 0.743  Sens 0.722  Spec 0.813  [TP 91 FP 28 TN 122 FN 35]  members 0.818±0.011
+full_train rand-C      AUROC 0.863  AUC-PR 0.848  Acc 0.783  BAcc 0.779  F1 0.756  Sens 0.738  Spec 0.820  [TP 93 FP 27 TN 123 FN 33]  members 0.838±0.010
+full_train FEI+C       AUROC 0.857  AUC-PR 0.852  Acc 0.797  BAcc 0.792  F1 0.767  Sens 0.730  Spec 0.853  [TP 92 FP 22 TN 128 FN 34]  members 0.834±0.007
+full_train rand-FEI+C  AUROC 0.861  AUC-PR 0.860  Acc 0.764  BAcc 0.761  F1 0.737  Sens 0.722  Spec 0.800  [TP 91 FP 30 TN 120 FN 35]  members 0.837±0.002
+546-subsets FEI         AUROC 0.835±0.015  Acc 0.750  BAcc 0.745  F1 0.715
+546-subsets C           AUROC 0.805±0.005  Acc 0.742  BAcc 0.738  F1 0.708
+546-subsets FEI+C       AUROC 0.821±0.006  Acc 0.771  BAcc 0.767  F1 0.742
+546-subsets rand-FEI    AUROC 0.790±0.020  Acc 0.713  BAcc 0.710  F1 0.682
+546-subsets rand-C      AUROC 0.819±0.014  Acc 0.740  BAcc 0.739  F1 0.720
+546-subsets rand-FEI+C  AUROC 0.834±0.014  Acc 0.767  BAcc 0.765  F1 0.745
+TUAB FEI+C DONE

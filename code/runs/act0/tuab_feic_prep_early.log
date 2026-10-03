@@ -1,0 +1,26 @@
+  prep 125/2993
+  prep 150/2993
+  prep 175/2993
+  prep 200/2993
+  prep 225/2993
+  prep 250/2993
+  prep 275/2993
+  prep 300/2993
+  prep 325/2993
+  prep 350/2993
+  prep 375/2993
+  prep 400/2993
+  prep 425/2993
+  prep 450/2993
+  prep 475/2993
+  prep 500/2993
+Traceback (most recent call last):
+  File "/home/mashfiq/eeg_vjepa/code/tuab_feic.py", line 141, in <module>
+    main()
+  File "/home/mashfiq/eeg_vjepa/code/tuab_feic.py", line 133, in main
+    prep()
+  File "/home/mashfiq/eeg_vjepa/code/tuab_feic.py", line 45, in prep
+    cool_gate(pause=82.0, resume=74.0, abort=92.0)   # every file, stricter: prep spikes this box to ~93 C
+  File "/home/mashfiq/eeg_vjepa/code/hw_guard.py", line 84, in cool_gate
+    raise RuntimeError(
+RuntimeError: [hw_guard] CPU still 97C after 180s cooldown — aborting to protect hardware.

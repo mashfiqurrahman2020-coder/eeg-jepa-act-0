@@ -1,0 +1,151 @@
+released_s0  AUROC 0.813  AUC-PR 0.824  Acc 0.743  BAcc 0.740  F1 0.715  Sens 0.706  Spec 0.773  [TP 89 FP 34 TN 116 FN 37]
+released_s1  AUROC 0.811  AUC-PR 0.816  Acc 0.743  BAcc 0.739  F1 0.710  Sens 0.690  Spec 0.787  [TP 87 FP 32 TN 118 FN 39]
+released_s2  AUROC 0.800  AUC-PR 0.810  Acc 0.728  BAcc 0.730  F1 0.717  Sens 0.754  Spec 0.707  [TP 95 FP 44 TN 106 FN 31]
+released_s3  AUROC 0.781  AUC-PR 0.800  Acc 0.717  BAcc 0.713  F1 0.683  Sens 0.667  Spec 0.760  [TP 84 FP 36 TN 114 FN 42]
+released_s4  AUROC 0.818  AUC-PR 0.838  Acc 0.732  BAcc 0.734  F1 0.720  Sens 0.754  Spec 0.713  [TP 95 FP 43 TN 107 FN 31]
+rand_s0      AUROC 0.813  AUC-PR 0.813  Acc 0.736  BAcc 0.732  F1 0.704  Sens 0.690  Spec 0.773  [TP 87 FP 34 TN 116 FN 39]
+rand_s1      AUROC 0.756  AUC-PR 0.760  Acc 0.681  BAcc 0.676  F1 0.636  Sens 0.611  Spec 0.740  [TP 77 FP 39 TN 111 FN 49]
+rand_s2      AUROC 0.784  AUC-PR 0.775  Acc 0.717  BAcc 0.718  F1 0.700  Sens 0.722  Spec 0.713  [TP 91 FP 43 TN 107 FN 35]
+INFO:root:Loading pretrained model from /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+VisionTransformer(
+  (patch_embed): PatchEmbed3D(
+    (proj): Conv3d(1, 384, kernel_size=(4, 4, 30), stride=(4, 4, 30))
+  )
+  (blocks): ModuleList(
+    (0-11): 12 x Block(
+      (norm1): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (attn): Attention(
+        (qkv): Linear(in_features=384, out_features=1152, bias=True)
+        (attn_drop): Dropout(p=0.0, inplace=False)
+        (proj): Linear(in_features=384, out_features=384, bias=True)
+        (proj_drop): Dropout(p=0.0, inplace=False)
+      )
+      (norm2): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+      (mlp): MLP(
+        (fc1): Linear(in_features=384, out_features=1536, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=1536, out_features=384, bias=True)
+        (drop): Dropout(p=0.0, inplace=False)
+      )
+    )
+  )
+  (norm): LayerNorm((384,), eps=1e-06, elementwise_affine=True)
+)
+INFO:root:loaded pretrained model with msg: <All keys matched successfully>
+INFO:root:loaded pretrained encoder from epoch: 353
+ path: /home/mashfiq/eeg_vjepa/pretrained/eeg_vjepa_ViT-M_4×30×4.pth.tar
+  encode full_train 0/2717
+/home/mashfiq/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/contextlib.py:87: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+  encode full_train 25/2717
+  encode full_train 50/2717
+  encode full_train 75/2717
+  encode full_train 100/2717
+  encode full_train 125/2717
+  encode full_train 150/2717
+  encode full_train 175/2717
+  encode full_train 200/2717
+  encode full_train 225/2717
+  encode full_train 250/2717
+  encode full_train 275/2717
+  encode full_train 300/2717
+  encode full_train 325/2717
+  encode full_train 350/2717
+  encode full_train 375/2717
+  encode full_train 400/2717
+  encode full_train 425/2717
+  encode full_train 450/2717
+  encode full_train 475/2717
+  encode full_train 500/2717
+  encode full_train 525/2717
+  encode full_train 550/2717
+  encode full_train 575/2717
+  encode full_train 600/2717
+  encode full_train 625/2717
+  encode full_train 650/2717
+  encode full_train 675/2717
+  encode full_train 700/2717
+  encode full_train 725/2717
+  encode full_train 750/2717
+  encode full_train 775/2717
+  encode full_train 800/2717
+  encode full_train 825/2717
+  encode full_train 850/2717
+  encode full_train 875/2717
+  encode full_train 900/2717
+  encode full_train 925/2717
+  encode full_train 950/2717
+  encode full_train 975/2717
+  encode full_train 1000/2717
+  encode full_train 1025/2717
+  encode full_train 1050/2717
+  encode full_train 1075/2717
+  encode full_train 1100/2717
+  encode full_train 1125/2717
+  encode full_train 1150/2717
+  encode full_train 1175/2717
+  encode full_train 1200/2717
+  encode full_train 1225/2717
+  encode full_train 1250/2717
+  encode full_train 1275/2717
+  encode full_train 1300/2717
+  encode full_train 1325/2717
+  encode full_train 1350/2717
+  encode full_train 1375/2717
+  encode full_train 1400/2717
+  encode full_train 1425/2717
+  encode full_train 1450/2717
+  encode full_train 1475/2717
+  encode full_train 1500/2717
+  encode full_train 1525/2717
+  encode full_train 1550/2717
+  encode full_train 1575/2717
+  encode full_train 1600/2717
+  encode full_train 1625/2717
+  encode full_train 1650/2717
+  encode full_train 1675/2717
+  encode full_train 1700/2717
+  encode full_train 1725/2717
+  encode full_train 1750/2717
+  encode full_train 1775/2717
+  encode full_train 1800/2717
+  encode full_train 1825/2717
+  encode full_train 1850/2717
+  encode full_train 1875/2717
+  encode full_train 1900/2717
+  encode full_train 1925/2717
+  encode full_train 1950/2717
+  encode full_train 1975/2717
+  encode full_train 2000/2717
+  encode full_train 2025/2717
+  encode full_train 2050/2717
+  encode full_train 2075/2717
+  encode full_train 2100/2717
+  encode full_train 2125/2717
+  encode full_train 2150/2717
+  encode full_train 2175/2717
+  encode full_train 2200/2717
+  encode full_train 2225/2717
+  encode full_train 2250/2717
+  encode full_train 2275/2717
+  encode full_train 2300/2717
+  encode full_train 2325/2717
+  encode full_train 2350/2717
+  encode full_train 2375/2717
+  encode full_train 2400/2717
+  encode full_train 2425/2717
+  encode full_train 2450/2717
+  encode full_train 2475/2717
+  encode full_train 2500/2717
+  encode full_train 2525/2717
+  encode full_train 2550/2717
+  encode full_train 2575/2717
+  encode full_train 2600/2717
+  encode full_train 2625/2717
+  encode full_train 2650/2717
+  encode full_train 2675/2717
+  encode full_train 2700/2717
+released_full AUROC 0.838  AUC-PR 0.846  Acc 0.764  BAcc 0.762  F1 0.739  Sens 0.730  Spec 0.793  [TP 92 FP 31 TN 119 FN 34]
+released subsets AUROC 0.805±0.013  BAcc 0.731
+rand subsets AUROC 0.784±0.023  BAcc 0.708
+TUAB ViT-M LINEAR DONE

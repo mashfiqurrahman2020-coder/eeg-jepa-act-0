@@ -1,0 +1,24 @@
+config: L=4000(20s) nfft=200 hop=100 -> 39 frames x 101 bins; ctx=23 predict 16
+  embed rep1 f0
+  embed rep1 f1
+  embed rep1 f2
+  embed rep1 f3
+  embed rep1 f4
+  embed rep2 f0
+  embed rep2 f1
+  embed rep2 f2
+  embed rep2 f3
+  embed rep2 f4
+FEI+C  rep0: LOSO AUROC 0.926  kf5 0.918  rand 0.944  vs rand -0.019 (kf5 wins 41%)  vs BSI +0.019
+FEI+C  rep1: LOSO AUROC 0.963  kf5 0.962  rand 0.944  vs rand +0.019 (kf5 wins 75%)  vs BSI +0.056
+FEI+C  rep2: LOSO AUROC 0.981  kf5 0.972  rand 0.944  vs rand +0.037 (kf5 wins 86%)  vs BSI +0.074
+FEI+C  pooled over runs: vs rand {'delta': 0.012345679012345623, 'ci': [-0.08333333333333337, 0.1428571428571428], 'p_le0': 0.6005}  vs BSI {'delta': 0.04938271604938271, 'ci': [-0.14814814814814825, 0.3076923076923077], 'p_le0': 0.427}
+FEI    rep0: LOSO AUROC 1.000  kf5 1.000  rand 0.907  vs rand +0.093 (kf5 wins 100%)  vs BSI +0.093
+FEI    rep1: LOSO AUROC 1.000  kf5 1.000  rand 0.907  vs rand +0.093 (kf5 wins 100%)  vs BSI +0.093
+FEI    rep2: LOSO AUROC 0.981  kf5 0.982  rand 0.907  vs rand +0.074 (kf5 wins 96%)  vs BSI +0.074
+FEI    pooled over runs: vs rand {'delta': 0.08641975308641969, 'ci': [0.0, 0.27334523809523803], 'p_le0': 0.161}  vs BSI {'delta': 0.0864197530864198, 'ci': [-0.02777777777777768, 0.3214285714285715], 'p_le0': 0.36}
+C      rep0: LOSO AUROC 0.833  kf5 0.819  rand 0.852  vs rand -0.019 (kf5 wins 16%)  vs BSI -0.074
+C      rep1: LOSO AUROC 0.833  kf5 0.826  rand 0.852  vs rand -0.019 (kf5 wins 16%)  vs BSI -0.074
+C      rep2: LOSO AUROC 0.833  kf5 0.842  rand 0.852  vs rand -0.019 (kf5 wins 15%)  vs BSI -0.074
+C      pooled over runs: vs rand {'delta': -0.01851851851851838, 'ci': [-0.14298941798941825, 0.11363636363636354], 'p_le0': 0.6725}  vs BSI {'delta': -0.07407407407407396, 'ci': [-0.4, 0.2400000000000001], 'p_le0': 0.7095}
+STROKE REPS DONE

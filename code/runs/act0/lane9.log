@@ -1,0 +1,4 @@
+[2026-09-26 13:34:15] LANE START
+[2026-09-26 13:34:15] waiting for ft_vitm_s0 (pid 396725)
+[2026-09-26 14:00:55] START ft_vitm_s0_bf16
+[2026-09-26 14:23:59] queue reprioritized: remaining jobs moved to lane 10 (bf16)
