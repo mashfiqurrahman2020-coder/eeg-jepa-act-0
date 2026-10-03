@@ -34,7 +34,7 @@ network, run through the same code.
 
 | Path | Contents |
 |------|----------|
-| `docs/Act0_Final_Report.pdf` | The report. The `.docx` beside it is its source |
+| `docs/Act0_Final_Report.pdf` | The current report PDF |
 | `docs/act0_repro/` | Fold, subset and cohort lists; SHA-256 of every checkpoint, result file and raw recording; pinned packages and the machine's environment |
 | `code/*.py` | One script per experiment (report Table 5) and per input (Table 4), plus the modules they import |
 | `code/*.pt` | Our 70 FEI/GTJ encoder checkpoints (see [Checkpoints](#checkpoints)) |
