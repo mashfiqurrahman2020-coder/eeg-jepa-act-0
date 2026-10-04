@@ -1,12 +1,12 @@
 """Act-0 Part 2 (Phase B): healthy vs stroke on Zenodo 19599466 (resting EEG, BrainVision 63 ch, 1000 Hz, ref A2).
-Design is fixed in runs/act0/phaseB/PREREGISTRATION.md (written by --prereg, sha256 stored in every result).
+The original design is recorded in runs/act0/phaseB/PREREGISTRATION.md; its sha256 is stored when present.
 
   stages (serial, resumable -- each stage skips if its output exists):
     --prereg   write the preregistration (never overwritten)
     --prep     CPU: bad-channel interp -> BSI/DAR/DTABR/rel-power gate (A2 ref) + encoder preps (CAR)
     --embed    GPU: released/random ViT-M, FEI+C (5 NMT encoders) + random FEI+C, collapse metrics
     --loso     CPU: LOSO arms, full metrics, per-subject preds, permutation p, bootstrap CIs, paired deltas
-    (no flag = all four, both cohorts)      --selftest
+    (no flag = prep, embed and loso for both cohorts)      --selftest
   python stroke_phaseB.py   -> code/runs/act0/phaseB/{gate,emb,results}_{primary,sensitivity}.*
 """
 import hashlib
@@ -253,7 +253,8 @@ def run_loso(cohort, E, gate):
         print(f"  {cohort:11s} {name:15s} {fmt(res[name])}  perm p {res[name]['perm_p']:.3f}", flush=True)
     comps = {"VJEPA+BSI vs BSI": ("VJEPA+BSI", "BSI"), "VJEPA vs rand-VJEPA": ("VJEPA", "rand-VJEPA"),
              "FEI+C vs VJEPA": ("FEI+C", "VJEPA")}
-    out = dict(cohort=cohort, prereg_sha256=sha(PREREG), n=len(y), n_stroke=int(y.sum()), arms=res,
+    out = dict(cohort=cohort, prereg_sha256=sha(PREREG) if os.path.isfile(PREREG) else None,
+               n=len(y), n_stroke=int(y.sum()), arms=res,
                paired={k: paired(y, P[a], P[b]) for k, (a, b) in comps.items()},
                preds={"subject": names, "y": y.tolist()} | {k: v.tolist() for k, v in P.items()})
     # member-level out-of-fold P(stroke) (members x subjects) + permutation null AUROCs per arm -> later analysis
@@ -267,7 +268,7 @@ def sha(p):
 
 
 PREREG_TEXT = """# Act-0 Part 2 (Phase B) preregistration: healthy vs stroke (Zenodo 19599466)
-Written before any LOSO run; `stroke_phaseB.py --loso` refuses to run without it and stores its sha256.
+Written before the original LOSO runs; future runs record its sha256 when the file is present.
 
 ## Cohorts (y: stroke = 1; POST-intervention files never used)
 - **primary** (pure rest block, before any task marker / segment break), fixed 285 s from onset for every subject
@@ -329,10 +330,11 @@ def main():
         return selftest()
     os.makedirs(OUT, exist_ok=True)
     stages = [s for s in ("--prereg", "--prep", "--embed", "--loso") if s in sys.argv] or \
-             ["--prereg", "--prep", "--embed", "--loso"]
+             ["--prep", "--embed", "--loso"]
     if "--prereg" in stages and not os.path.exists(PREREG):
         open(PREREG, "w").write(PREREG_TEXT)
-    print("preregistration sha256:", sha(PREREG), flush=True)
+    if os.path.isfile(PREREG):
+        print("preregistration sha256:", sha(PREREG), flush=True)
     for cohort in COHORTS:
         gate = prep(cohort) if {"--prep", "--loso"} & set(stages) else None
         if "--prep" in stages:

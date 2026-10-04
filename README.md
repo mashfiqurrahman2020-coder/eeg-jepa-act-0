@@ -151,6 +151,10 @@ For everything else, report Table 5 names the script behind each experiment, Tab
 prepares each input, and Appendix §11.6 the pre-training commands and seeds. Long runs save their progress as
 they go, so an interrupted run resumes where it stopped when you run the same command again.
 
+The stroke analysis can run without `PREREGISTRATION.md`. When that file is present, its SHA-256 is recorded
+in new results; when absent, the field is `null`. The existing saved results keep the fingerprint from the
+original study. Use `python stroke_phaseB.py --prereg` only when creating a new preregistration file.
+
 ### What to expect
 
 - **From the saved checkpoints and predictions:** every number in the report, exactly.
